@@ -1,0 +1,50 @@
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Chat
+	#{cls('chat.messages.container')} {
+		background: transparent;
+	}
+
+	#{cls('chat.content')}::before {
+		content: none;
+	}
+
+	#{cls('chat.skeleton')} {
+		background: var(--background-primary);
+	}
+
+	#{cls('chat.container')} {
+		border: none;
+		background: rgb(0, 0, 0, var(--middle-brightness));
+	}
+
+	#{cls('chat.messages.container')} {
+		background-color: transparent;
+		text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
+	}
+
+	#{cls('chat.bars.newMessages.container')} {
+		background: var(--gradient);
+		opacity: 1;
+		box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+		z-index: 3;
+	}
+
+	#{cls('chat.bars.jumpTo')} {
+		border-radius: 8px;
+		background-color: var(--foreground-double);
+		backdrop-filter: blur(10px);
+		padding-bottom: 0;
+		bottom: 10px;
+		&:hover {
+			background-color: var(--foreground-triple);
+		}
+	}
+
+	// TODO: add this this discordclasses
+	.chatGradientBase__36d07 {
+		display: none;
+	}
+	//#endregion Chat
+}

@@ -1,0 +1,26 @@
+#app-mount .container__133bf {
+	background: rgb(0, 0, 0, var(--middle-brightness));
+
+	.tabBody__133bf {
+		background: transparent;
+	}
+
+	.container__9293f {
+		background: transparent;
+	}
+
+	.itemCard__7e549, .card_eafb9c, .blockedIgnoredSettingsNotice__6811a {
+		border: none;
+		background: var(--foreground-half)
+	}
+
+	.itemCard__7e549:hover {
+		background: var(--foreground);
+	}
+	.nowPlayingColumn__133bf, .container__7d20c {
+		background: rgb(0, 0, 0, var(--right-brightness));
+	}
+	.scroller__7d20c {
+		border: none;
+	}
+}

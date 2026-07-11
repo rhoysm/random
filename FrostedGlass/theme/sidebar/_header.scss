@@ -1,0 +1,17 @@
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Server header
+	#{cls('sidebar.head.header')} {
+		background: transparent;
+		box-shadow: none;
+		border: none;
+	}
+
+	#{cls('sidebar.head.animatedContainer')} {
+		-webkit-mask: linear-gradient(rgb(0, 0, 0, 0.9) 60%, rgb(0, 0, 0, 0) 100%) !important;
+		top: 48px;
+		background: transparent;
+	}
+	//#endregion Server header
+}

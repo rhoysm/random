@@ -1,0 +1,62 @@
+#app-mount {
+	.container__55c99 {
+		background: transparent;
+		box-shadow: none;
+		.displayedNick__56fec {
+			color: var(--text-normal);
+		}
+		.displayUsername__56fec {
+			color: var(--text-muted);
+		}
+		.option__56fec {
+			.content__56fec {
+				--webkit-mask-image: linear-gradient(90deg, white, white 95%, transparent);
+				mask-image: linear-gradient(90deg, white, white 95%, transparent);
+			}
+			.plusIcon__56fec {
+				color: var(--text-normal);
+			}
+			&:hover {
+				.content__56fec {
+					--webkit-mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
+					mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
+				}
+			}
+			&.selected-rZcOL- {
+				background: var(--foreground);
+				&::after {
+					background: linear-gradient(90deg, transparent, var(--foreground-double));
+				}
+			}
+			&::after {
+				background: transparent;
+			}
+		}
+		.react-datepicker,
+		.react-datepicker__header {
+			background: transparent;
+		}
+		.react-datepicker__month {
+			background: var(--background-secondary);
+			border-radius: 3px;
+		}
+		.react-datepicker__day {
+			border-color: var(--foreground);
+			background: var(--foreground);
+			&--selected::after {
+				background: var(--gradient);
+			}
+		}
+		.react-datepicker__day--disabled,
+		.react-datepicker__day--outside-month {
+			background: transparent;
+		}
+	}
+	.searchAnswer_bd8186 {
+		background: var(--foreground);
+		margin-left: 0;
+	}
+	.searchFilter_bd8186 {
+		background: var(--foreground);
+	}
+}
